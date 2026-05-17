@@ -1,0 +1,7 @@
+@theme "/usr/share/rofi/themes/gruvbox-dark.rasi"
+
+configuration {
+    show-icons: true;
+    sort: true;
+    sorting-method: "fzf";
+}

@@ -1,0 +1,26 @@
+super + Return
+	kitty
+
+super + d
+	rofi -show drun
+
+super + shift + r
+	sh ~/.config/bspwm/bspwmrc && pkill -USR1 -x sxhkd
+
+super + shift + q
+	bspc node -c
+
+super + {1-6}
+	bspc desktop -f '^{1-6}'
+
+super + shift + {1-6}
+	bspc node -d '^{1-6}'
+
+Print
+	flameshot gui
+
+super + space
+	bspc node -t "~floating"
+
+super + f
+	bspc node -t "~fullscreen"
